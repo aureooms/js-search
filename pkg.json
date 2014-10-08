@@ -1,0 +1,17 @@
+{
+	"src": "js/src/",
+	"debug": false,
+	"out": "js/dist/",
+	"code": {
+		"main": [
+			"js",
+			"dist",
+			"search.js"
+		],
+		"test": [
+			"test",
+			"js"
+		]
+	},
+	"ns": "search"
+}

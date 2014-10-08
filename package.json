@@ -1,0 +1,33 @@
+{
+	"name": "aureooms-js-search",
+	"bugs": {
+		"url": "https://github.com/aureooms/js-search/issues"
+	},
+	"dependencies": {},
+	"homepage": "http://aureooms.github.io/js-search/",
+	"scripts": {
+		"build": "./node_modules/.bin/aureooms-node-package-build",
+		"test": "./node_modules/.bin/aureooms-node-package-test",
+		"doc": "./node_modules/.bin/groc"
+	},
+	"keywords": [
+		"binarysearch",
+		"bricks",
+		"data",
+		"javascript",
+		"js",
+		"search"
+	],
+	"license": "AGPL-3.0",
+	"main": "js/dist/search.js",
+	"repository": {
+		"url": "https://github.com/aureooms/js-search.git",
+		"type": "git"
+	},
+	"version": "0.0.0",
+	"devDependencies": {
+		"aureooms-node-package": "^1.1.3"
+	},
+	"description": "item retrieval code bricks for JavaScript",
+	"author": "aureooms"
+}

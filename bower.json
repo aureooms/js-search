@@ -1,0 +1,19 @@
+{
+	"license": "AGPL-3.0",
+	"main": "js/dist/search.js",
+	"name": "aureooms-js-search",
+	"version": "0.0.0",
+	"ignore": [
+		"js/index.js",
+		"js/src",
+		"test",
+		"pkg.json",
+		"package.json",
+		".groc.json",
+		".travis.yml",
+		".gitignore",
+		"README.md"
+	],
+	"description": "item retrieval code bricks for JavaScript",
+	"homepage": "http://aureooms.github.io/js-search/"
+}
