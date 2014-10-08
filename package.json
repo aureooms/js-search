@@ -24,7 +24,7 @@
 		"url": "https://github.com/aureooms/js-search.git",
 		"type": "git"
 	},
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"devDependencies": {
 		"aureooms-node-package": "^1.1.3"
 	},
