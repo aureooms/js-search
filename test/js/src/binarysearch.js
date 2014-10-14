@@ -18,7 +18,7 @@ var check = function(ctor, n, diff) {
 
 		// SETUP REF ARRAY
 		var ref = new ctor(n);
-		iota(ref, 0, n);
+		iota(ref, 0, n, 0);
 		Array.prototype.sort.call ( ref, diff );
 
 		// SETUP TEST ARRAY

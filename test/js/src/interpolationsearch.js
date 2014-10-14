@@ -13,7 +13,6 @@ var check = function(ctor, n, diff) {
 		// ALIASES
 		var randint = random.randint;
 
-		var iota = array.iota;
 		var copy = array.copy;
 
 		var interpolationsearch = search.interpolationsearch;
@@ -21,6 +20,7 @@ var check = function(ctor, n, diff) {
 		// SETUP REF ARRAY
 		var ref = new ctor(n);
 		for(var j = 0; j < n; ++j) ref[j] = randint(0, n);
+		Array.prototype.sort.call ( ref, diff );
 
 		// SETUP TEST ARRAY
 		var a = new ctor(n);

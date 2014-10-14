@@ -28,11 +28,11 @@ var __pivotsearch__ = function ( pivot ) {
 		}
 
 		else if ( d < 0 ) {
-			return pivotsearch(k, a, i, p);
+			return pivotsearch( delta, a, i, p, k );
 		}
 
 		else {
-			return pivotsearch(k, a, p + 1, j);
+			return pivotsearch( delta, a, p + 1, j, k );
 		}
 
 	};

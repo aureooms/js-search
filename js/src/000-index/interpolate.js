@@ -4,7 +4,7 @@ var interpolate = function ( delta, a, i, j, k ) {
 
 	var w, d, p;
 
-	w = delta( a[j-1], a[i] );
+	w = delta( a[j - 1], a[i] );
 	d = delta( k, a[i] );
 
 	if ( w === 0 ) {
