@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/home/genius/dev/js/js-search/README.md",
+        "sourcePath": "/home/aureooms/dev/js/js-search/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
@@ -22,25 +22,135 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
       "depth": 1,
       "outline": []
     }, {
-      "type": "file",
+      "type": "folder",
       "data": {
-        "language": {
-          "nameMatchers": [".js"],
-          "pygmentsLexer": "javascript",
-          "multiLineComment": ["/*", "*", "*/"],
-          "singleLineComment": ["//"],
-          "ignorePrefix": "}",
-          "foldPrefix": "^",
-          "name": "JavaScript"
-        },
-        "sourcePath": "/home/genius/dev/js/js-search/js/src/dummy.js",
-        "projectPath": "js/src/dummy.js",
-        "targetPath": "dummy",
-        "pageTitle": "dummy",
-        "title": "dummy"
+        "path": "000-index",
+        "title": "000-index"
       },
       "depth": 1,
-      "outline": []
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-search/js/src/000-index/interpolate.js",
+            "projectPath": "js/src/000-index/interpolate.js",
+            "targetPath": "000-index/interpolate",
+            "pageTitle": "000-index/interpolate",
+            "title": "interpolate"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-search/js/src/000-index/median.js",
+            "projectPath": "js/src/000-index/median.js",
+            "targetPath": "000-index/median",
+            "pageTitle": "000-index/median",
+            "title": "median"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "001-search",
+        "title": "001-search"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-search/js/src/001-search/pivotsearch.js",
+            "projectPath": "js/src/001-search/pivotsearch.js",
+            "targetPath": "001-search/pivotsearch",
+            "pageTitle": "001-search/pivotsearch",
+            "title": "pivotsearch"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "999-custom",
+        "title": "999-custom"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-search/js/src/999-custom/binarysearch.js",
+            "projectPath": "js/src/999-custom/binarysearch.js",
+            "targetPath": "999-custom/binarysearch",
+            "pageTitle": "999-custom/binarysearch",
+            "title": "binarysearch"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-search/js/src/999-custom/interpolationsearch.js",
+            "projectPath": "js/src/999-custom/interpolationsearch.js",
+            "targetPath": "999-custom/interpolationsearch",
+            "pageTitle": "999-custom/interpolationsearch",
+            "title": "interpolationsearch"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
     }
   ];
 
@@ -265,7 +375,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
       if (metaInfo.documentPath === 'index') {
         sourceURL = metaInfo.githubURL;
       } else {
-        sourceURL = "" + metaInfo.githubURL + "/blob/master/" + metaInfo.projectPath;
+        sourceURL = metaInfo.githubURL + "/blob/master/" + metaInfo.projectPath;
       }
       nav$.find('.tools').prepend("<li class=\"github\">\n  <a href=\"" + sourceURL + "\" title=\"View source on GitHub\">\n    View source on GitHub\n  </a>\n</li>");
     }
