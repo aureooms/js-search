@@ -13,3 +13,4 @@ item retrieval code bricks for JavaScript
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-search.svg?style=flat)](https://codeclimate.com/github/aureooms/js-search)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-search.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-search)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-search.svg?style=flat)](https://github.com/aureooms/js-search/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-search.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-search)
