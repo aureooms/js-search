@@ -28,7 +28,7 @@
 	"devDependencies": {
 		"aureooms-node-package": "^6.0.1",
 		"aureooms-js-random": "^2.0.0",
-		"aureooms-js-array": "^3.1.0"
+		"aureooms-js-array": "^4.0.0"
 	},
 	"description": "item retrieval code bricks for JavaScript",
 	"author": "aureooms"
