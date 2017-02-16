@@ -3,7 +3,7 @@
 
 item retrieval code bricks for JavaScript
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-search.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-search/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-search.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-search/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-search.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-search)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-search.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-search)
 [![Build Status](https://img.shields.io/travis/aureooms/js-search.svg?style=flat)](https://travis-ci.org/aureooms/js-search)
