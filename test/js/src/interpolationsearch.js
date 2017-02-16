@@ -2,8 +2,8 @@
 var util, array;
 
 util = require( "util" );
-array = require( "aureooms-js-array" );
-random = require( "aureooms-js-random" );
+array = require( "@aureooms/js-array" );
+random = require( "@aureooms/js-random" );
 
 var check = function(ctor, n, diff) {
 	var name = util.format("interpolationsearch (new %s(%d), %s)", ctor.name, n, diff);

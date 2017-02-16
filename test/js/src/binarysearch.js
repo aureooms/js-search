@@ -2,7 +2,7 @@
 var util, array;
 
 util = require( "util" );
-array = require( "aureooms-js-array" );
+array = require( "@aureooms/js-array" );
 
 
 var check = function(ctor, n, diff) {
