@@ -1,6 +1,8 @@
-(function(exports, undefined){
+( function ( ) {
 
-	'use strict';
+'use strict' ;
+
+var definition = function ( exports , undefined ) {
 
 
 /* js/src/000-index */
@@ -89,4 +91,16 @@ exports.binarysearch = __pivotsearch__( median );
 
 exports.interpolationsearch = __pivotsearch__( interpolate );
 
-})(typeof exports === 'undefined' ? this['search'] = {} : exports);
+return exports ;
+} ;
+if ( typeof exports === "object" ) {
+	definition( exports ) ;
+}
+else if ( typeof define === "function" && define.amd ) {
+	define( "@aureooms/js-search" , [ ] , function ( ) { return definition( { } ) ; } ) ;
+}
+else if ( typeof window === "object" && typeof window.document === "object" ) {
+	definition( window["search"] = { } ) ;
+}
+else console.error( "unable to detect type of module to define for @aureooms/js-search") ;
+} )( ) ;
