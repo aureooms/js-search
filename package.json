@@ -44,5 +44,18 @@
     "nyc": "15.0.1"
   },
   "description": "item retrieval code bricks for JavaScript",
-  "author": "aureooms"
+  "author": "aureooms",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-async-generator-functions"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  }
 }
