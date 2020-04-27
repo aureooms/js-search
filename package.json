@@ -6,7 +6,7 @@
   "dependencies": {},
   "homepage": "http://aureooms.github.io/js-search/",
   "scripts": {
-    "build": "./node_modules/.bin/aureooms-node-package-build",
+    "build": "rm -rf lib && babel src -d lib",
     "test": "ava",
     "esdoc": "esdoc"
   },
@@ -19,7 +19,7 @@
     "search"
   ],
   "license": "AGPL-3.0",
-  "main": "js/dist/search.js",
+  "main": "lib/index.js",
   "repository": {
     "url": "https://github.com/aureooms/js-search.git",
     "type": "git"
