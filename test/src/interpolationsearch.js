@@ -1,9 +1,10 @@
+import test from 'ava';
+import * as search from '../../src';
 
-var util, array;
 
-util = require( "util" );
-array = require( "@aureooms/js-array" );
-random = require( "@aureooms/js-random" );
+import util from "util" ;
+import array from "@aureooms/js-array" ;
+import random from "@aureooms/js-random" ;
 
 var check = function(ctor, n, diff) {
 	var name = util.format("interpolationsearch (new %s(%d), %s)", ctor.name, n, diff);
@@ -32,32 +33,32 @@ var check = function(ctor, n, diff) {
 		if(i > 0){
 			// CHECK > OUTER BOUND
 			var s = interpolationsearch( diff, a, 0, n, n);
-			deepEqual(s[0], 0, 'not found ' + n);
+			t.deepEqual(s[0], 0, 'not found ' + n);
 			var x = (n * (diff(-1, 0) < 0));
-			deepEqual(s[1], x, 'where === ' + x);
+			t.deepEqual(s[1], x, 'where === ' + x);
 
 			// CHECK BODY
 			while (i--) {
 				s = interpolationsearch( diff, a, 0, n, a[i]);
-				deepEqual(s[0], 1, 'find  a[' + i + ']');
-				deepEqual(a[s[1]], a[i], 'val  === ' + a[i]);
+				t.deepEqual(s[0], 1, 'find  a[' + i + ']');
+				t.deepEqual(a[s[1]], a[i], 'val  === ' + a[i]);
 			}
 
 			// CHECK < OUTER BOUND
 			s = interpolationsearch( diff, a, 0, n, -1);
-			deepEqual(s[0], 0, 'not found -1');
+			t.deepEqual(s[0], 0, 'not found -1');
 			x = (n * (diff(-1, 0) > 0));
-			deepEqual(s[1], x, 'where === ' + x);
+			t.deepEqual(s[1], x, 'where === ' + x);
 		}
 		else{
 			var s = interpolationsearch( diff, a, 0, n, -1);
-			deepEqual(s[0], 0, 'not found -1');
-			deepEqual(s[1], 0, 'where === ' + 0);
+			t.deepEqual(s[0], 0, 'not found -1');
+			t.deepEqual(s[1], 0, 'where === ' + 0);
 		}
 
 
 		// CHECK NOT MODIFIED
-		deepEqual(a.length, n, 'length check');
+		t.deepEqual(a.length, n, 'length check');
 
 		var notmodified = true;
 		i = a.length;
@@ -68,7 +69,7 @@ var check = function(ctor, n, diff) {
 			}
 		}
 
-		ok(notmodified, 'not modified check');
+		t.truthy(notmodified, 'not modified check');
 	});
 };
 
