@@ -1,36 +1,38 @@
 {
   "name": "@aureooms/js-search",
+  "description": "item retrieval code bricks for JavaScript",
+  "version": "0.0.4",
+  "author": "aureooms",
+  "ava": {
+    "files": [
+      "test/src/**/*"
+    ],
+    "require": [
+      "@babel/polyfill",
+      "@babel/register"
+    ],
+    "timeout": "1m"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-async-generator-functions"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
   "bugs": {
     "url": "https://github.com/aureooms/js-search/issues"
   },
   "dependencies": {},
-  "homepage": "http://aureooms.github.io/js-search/",
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "test": "ava",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "cover": "nyc --reporter=lcov npm test",
-    "release": "np"
-  },
-  "keywords": [
-    "binarysearch",
-    "bricks",
-    "data",
-    "javascript",
-    "js",
-    "search"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "url": "https://github.com/aureooms/js-search.git",
-    "type": "git"
-  },
-  "version": "0.0.4",
   "devDependencies": {
-    "@aureooms/js-random": "^2.0.0",
     "@aureooms/js-array": "^4.0.0",
+    "@aureooms/js-random": "^2.0.0",
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
     "@babel/polyfill": "7.8.7",
@@ -45,32 +47,30 @@
     "np": "6.2.2",
     "nyc": "15.0.1"
   },
-  "description": "item retrieval code bricks for JavaScript",
-  "author": "aureooms",
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-async-generator-functions"
-    ],
-    "env": {
-      "development": {
-        "sourceMaps": "inline"
-      }
-    }
-  },
-  "ava": {
-    "files": [
-      "test/src/**/*"
-    ],
-    "require": [
-      "@babel/polyfill",
-      "@babel/register"
-    ],
-    "timeout": "1m"
-  },
   "files": [
     "lib"
-  ]
+  ],
+  "homepage": "http://aureooms.github.io/js-search/",
+  "keywords": [
+    "binarysearch",
+    "bricks",
+    "data",
+    "javascript",
+    "js",
+    "search"
+  ],
+  "license": "AGPL-3.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/aureooms/js-search.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "ava"
+  }
 }
