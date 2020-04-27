@@ -1,2 +1,2 @@
 
-const interpolationsearch = __pivotsearch__( interpolate );
+export const interpolationsearch = __pivotsearch__( interpolate );

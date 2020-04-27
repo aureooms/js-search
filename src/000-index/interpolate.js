@@ -1,6 +1,6 @@
 
 
-var interpolate = function ( delta, a, i, j, k ) {
+export function interpolate ( delta, a, i, j, k ) {
 
 	var w, d, p;
 
@@ -14,6 +14,5 @@ var interpolate = function ( delta, a, i, j, k ) {
 
 	p = i + Math.floor( d * (j - i - 1) / w );
 	return Math.max( i, Math.min( j - 1, p ) );
-};
+}
 
-exports.interpolate = interpolate;

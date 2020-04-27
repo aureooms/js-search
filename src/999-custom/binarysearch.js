@@ -1,2 +1,2 @@
 
-const binarysearch = __pivotsearch__( median );
+export const binarysearch = __pivotsearch__( median );

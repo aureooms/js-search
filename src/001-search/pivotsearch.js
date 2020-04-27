@@ -1,6 +1,6 @@
 
 
-var __pivotsearch__ = function ( pivot ) {
+export function __pivotsearch__ ( pivot ) {
 
 	/**
 	 * Searches an element in a sorted array.
@@ -39,6 +39,5 @@ var __pivotsearch__ = function ( pivot ) {
 
 	return pivotsearch;
 
-};
+}
 
-exports.__pivotsearch__ = __pivotsearch__;
