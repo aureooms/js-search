@@ -3,13 +3,12 @@ import * as search from '../../src';
 
 
 import util from "util" ;
-import array from "@aureooms/js-array" ;
-import random from "@aureooms/js-random" ;
+import * as array from "@aureooms/js-array" ;
+import * as random from "@aureooms/js-random" ;
 
 var check = function(ctor, n, diff) {
 	var name = util.format("interpolationsearch (new %s(%d), %s)", ctor.name, n, diff);
-	console.log(name);
-	test(name, function (assert) {
+	test(name, t => {
 
 		// ALIASES
 		var randint = random.randint;
