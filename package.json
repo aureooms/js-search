@@ -31,8 +31,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@aureooms/js-array": "^4.0.0",
-    "@aureooms/js-random": "^2.0.0",
+    "@aureooms/js-array": "4.0.0",
+    "@aureooms/js-random": "2.0.0",
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
     "@babel/polyfill": "7.8.7",
