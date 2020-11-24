@@ -1,7 +1,16 @@
-[@aureooms/js-search](https://aureooms.github.io/js-search)
+:flashlight: [@aureooms/js-search](https://aureooms.github.io/js-search)
 ==
 
-item retrieval code bricks for JavaScript
+<p align="center">
+<a href="http://articles.adsabs.harvard.edu/pdf/1981NASCP2156..391W">
+<img src="https://sites.psu.edu/astrowright/files/2018/09/Screen-Shot-2018-09-20-at-8.20.43-AM-23ujj9s.png" width="400">
+</a><br/>
+in <a href="https://ui.adsabs.harvard.edu/abs/1981NASCP2156..391W/abstract">SETI - the Search for Extraterrestrial Intelligence - Plans and Rationale</a>
+</p>
+
+Item retrieval algorithms for JavaScript.
+See [docs](https://aureooms.github.io/js-search).
+Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 [![License](https://img.shields.io/github/license/aureooms/js-search.svg)](https://raw.githubusercontent.com/aureooms/js-search/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-search.svg)](https://www.npmjs.org/package/@aureooms/js-search)
