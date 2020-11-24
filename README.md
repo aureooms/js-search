@@ -8,7 +8,7 @@
 in <a href="https://ui.adsabs.harvard.edu/abs/1981NASCP2156..391W/abstract">SETI - the Search for Extraterrestrial Intelligence - Plans and Rationale</a>
 </p>
 
-Item retrieval algorithms for JavaScript.
+Searching algorithms for JavaScript.
 See [docs](https://aureooms.github.io/js-search).
 Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
