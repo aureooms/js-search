@@ -1,4 +1,4 @@
-[js-search](http://aureooms.github.io/js-search)
+[@aureooms/js-search](https://aureooms.github.io/js-search)
 ==
 
 item retrieval code bricks for JavaScript
@@ -15,5 +15,5 @@ item retrieval code bricks for JavaScript
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search/main.svg)](https://codecov.io/gh/aureooms/js-search)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/trends/technical_debt)
-[![Documentation](http://aureooms.github.io/js-search//badge.svg)](http://aureooms.github.io/js-search//source.html)
+[![Documentation](https://aureooms.github.io/js-search//badge.svg)](https://aureooms.github.io/js-search//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search)](https://bundlephobia.com/result?p=@aureooms/js-search)
