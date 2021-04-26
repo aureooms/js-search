@@ -1,4 +1,4 @@
-:flashlight: [@aureooms/js-search](https://aureooms.github.io/js-search)
+:flashlight: [@aureooms/js-search](https://make-github-pseudonymous-again.github.io/js-search)
 ==
 
 <p align="center">
@@ -9,7 +9,7 @@ in <a href="https://ui.adsabs.harvard.edu/abs/1981NASCP2156..391W/abstract">SETI
 </p>
 
 Searching algorithms for JavaScript.
-See [docs](https://aureooms.github.io/js-search).
+See [docs](https://make-github-pseudonymous-again.github.io/js-search).
 Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 [![License](https://img.shields.io/github/license/aureooms/js-search.svg)](https://raw.githubusercontent.com/aureooms/js-search/main/LICENSE)
@@ -24,5 +24,5 @@ Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search/main.svg)](https://codecov.io/gh/aureooms/js-search)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-search//badge.svg)](https://aureooms.github.io/js-search//source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-search//badge.svg)](https://make-github-pseudonymous-again.github.io/js-search//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search)](https://bundlephobia.com/result?p=@aureooms/js-search)
