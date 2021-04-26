@@ -10,19 +10,19 @@ in <a href="https://ui.adsabs.harvard.edu/abs/1981NASCP2156..391W/abstract">SETI
 
 Searching algorithms for JavaScript.
 See [docs](https://make-github-pseudonymous-again.github.io/js-search).
-Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
+Parent is [@aureooms/js-algorithms](https://github.com/make-github-pseudonymous-again/js-algorithms).
 
-[![License](https://img.shields.io/github/license/aureooms/js-search.svg)](https://raw.githubusercontent.com/aureooms/js-search/main/LICENSE)
+[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-search.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-search/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-search.svg)](https://www.npmjs.org/package/@aureooms/js-search)
-[![Build](https://img.shields.io/travis/aureooms/js-search/main.svg)](https://travis-ci.org/aureooms/js-search/branches)
-[![Dependencies](https://img.shields.io/david/aureooms/js-search.svg)](https://david-dm.org/aureooms/js-search)
-[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-search.svg)](https://david-dm.org/aureooms/js-search?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-search.svg)](https://github.com/aureooms/js-search/issues)
+[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-search/main.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-search/branches)
+[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-search.svg)](https://david-dm.org/make-github-pseudonymous-again/js-search)
+[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-search.svg)](https://david-dm.org/make-github-pseudonymous-again/js-search?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-search.svg)](https://github.com/make-github-pseudonymous-again/js-search/issues)
 [![Downloads](https://img.shields.io/npm/dm/@aureooms/js-search.svg)](https://www.npmjs.org/package/@aureooms/js-search)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-search/main.svg)](https://codecov.io/gh/aureooms/js-search)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-search.svg)](https://codeclimate.com/github/aureooms/js-search/trends/technical_debt)
+[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-search.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-search/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-search.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-search/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-search/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-search)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-search.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-search/trends/technical_debt)
 [![Documentation](https://make-github-pseudonymous-again.github.io/js-search//badge.svg)](https://make-github-pseudonymous-again.github.io/js-search//source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-search)](https://bundlephobia.com/result?p=@aureooms/js-search)
